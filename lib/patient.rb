@@ -18,5 +18,5 @@ class Patient
   def doctors
     self.appointments.collect {|appointment| appointment.doctor}.uniq
   end
-  
+
 end
